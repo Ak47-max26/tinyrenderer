@@ -1,0 +1,22 @@
+# Auto-normalize line endings for text files
+* text=auto
+
+# Treat common source files as text
+*.c text
+*.cpp text
+*.h text
+*.hpp text
+*.txt text
+*.md text
+*.cmake text
+CMakeLists.txt text
+
+# Mark binary assets so git won't attempt to normalize them
+obj/** binary
+*.jpg binary
+*.png binary
+*.tga binary
+*.obj binary
+
+# Ensure shell scripts keep LF
+*.sh eol=lf

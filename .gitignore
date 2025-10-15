@@ -1,1 +1,34 @@
 framebuffer.tga
+
+# Build artifacts
+build/
+bin/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+
+# IDE/OS
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj*
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Image outputs
+*.tga
+
+# Generated model assets (if you generate them locally)
+generated_obj/
+framebuffer.tga
